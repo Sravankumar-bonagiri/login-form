@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(248, 247, 247);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 350px;
+    width: 300px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(187, 185, 185);
+}
+header{
+    position: absolute;
+    top: 0;
+    /* background-color: red; */
+    background-image: linear-gradient(to right, rgb(50, 50, 243), rgb(151, 16, 151));
+    width: 100%;
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    font-family:sans-serif;
+    font-size: 12px;
+    line-height: 40px;
+    
+    
+}
+.input-fields{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 70px;
+    /* background-color: green; */
+    margin-bottom: 0px;
+}
+.input-fields input{
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 230px;
+    padding: 10px;
+    transition: all 0.3s linear;
+    /* background-color: green; */
+}
+.input-fields input:hover{
+    box-shadow:  3px 3px 5px rgb(128, 127, 127);
+    outline: none;
+    scale: 1.1;    
+}
+.forgot-password{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(226, 74, 74); */
+    padding: 5px;
+    margin-top: 0;
+}
+.forgot{
+    margin-left: 8px;
+    
+}
+
+.forgot a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.forgot a:focus{
+   color: violet;
+}
+.login-button{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+.login-button .btn{
+    padding: 10px 30px;
+    width: 230px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, rgb(50, 50, 243), rgb(151, 16, 151));
+    cursor: pointer;
+    transition: all 0.15s linear ;
+}
+.login-button .btn:hover{
+    opacity:0.7;
+}
+.signup a{
+    text-decoration: none;
+}
+.signup a:focus{
+    color: violet;
+}
