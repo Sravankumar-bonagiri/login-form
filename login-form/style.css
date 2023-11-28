@@ -22,7 +22,7 @@ body{
     row-gap: 20px;
     position: relative;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px rgb(187, 185, 185);
+    box-shadow: 5px 5px 20px rgb(187, 185, 185);
 }
 header{
     position: absolute;
